@@ -1,0 +1,35 @@
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="user" page="user.jsp">
+		<pattern>/**</pattern>
+	</decorator>
+	<decorator name="account" page="Account.jsp">
+		<pattern>/Login</pattern>
+	</decorator>
+	<decorator name="account" page="Account.jsp">
+		<pattern>/Register</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/admin</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/qlproducts</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/qlcategorys</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/Bills</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/BillDetail</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/BillDetail/*</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/EditUsers/*</pattern>
+	</decorator>
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/EditUsers</pattern>
+	</decorator>
+</decorators>
